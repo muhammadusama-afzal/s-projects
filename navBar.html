@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-		/>
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>01</title>
-		<link rel="stylesheet" href="navBar.css" />
-	</head>
-	<body>
-		<!-- <header class="primary-header">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>01</title>
+	<link rel="stylesheet" href="navBar.css" />
+</head>
+
+<body>
+	<!-- <header class="primary-header">
 			<nav class="navbar container">
 				<a href="index.html" class="logo">TOURS.</a>
 				<ul class="nav-list">
@@ -47,45 +47,47 @@
 			window.addEventListener('scroll', isScrolling)
 		</script> -->
 
-<!-- ****************************************************************************** -->
-         <header id="header">
-            <nav id="navbar">
-                <div class="logo">
-                    <a href="#" class="loogo">NAVBAR</a>
-                </div>
+	<!-- ****************************************************************************** -->
+	<header id="header">
+		<nav id="navbar">
+			<div class="logo">
+				<a href="#" class="loogo">NAVBAR</a>
+			</div>
 
-                <div id="navItem-div">
-                <ul id="nav_item">
-                    <li class="nav_list">home</li>
-                    <li class="nav_list">gallery</li>
-                    <li class="nav_list">contact</li>
-                    <li class="nav_list">about us</li>
-                    <li class="nav_list">date</li>
-                </ul>
-            </div>
-            <button class="btn">book now</button>
-        
-            </nav>
-        </header>
+			<div id="navItem-div">
+				<ul id="nav_item">
+					<li class="nav_list" onkeydown="">home</li>
+					<li class="nav_list">gallery</li>
+					<li class="nav_list">contact</li>
+					<li class="nav_list">about us</li>
+					<li class="nav_list">date</li>
+				</ul>
+			</div>
+			<button class="btn">book now</button>
 
-        <!--  Hero Section 1 --> 
-        <section class="sec-1">
-            section 1
-        </section>
+		</nav>
+	</header>
 
-        <section class="sec-2">
-           section 2
-        </section>
+	<!--  Hero Section 1 -->
+	<section class="sec-1">
+		section 1
+	</section>
+
+	<section class="sec-2">
+		section 2
+	</section>
 
 
-        <script>
-            const isScrolling = () => {
-                const hhh =  document.querySelector('#navbar')
-                let windowPosition = window.scrollY > 250
+	<script>
+		const isScrolling = () => {
+			const hhh = document.querySelector('#navbar')
+			let windowPosition = window.scrollY > 100;
 
-                hhh.classList.toggle('active', windowPosition)
-            }
-            window.addEventListener('scroll', isScrolling)
-        </script>         
-        </body>
+			hhh.classList.toggle('active', windowPosition)
+		}
+		window.addEventListener('scroll', isScrolling)
+
+	</script>
+</body>
+
 </html>
