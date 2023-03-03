@@ -1,2 +1,0 @@
-added some dummy text in this file for checking the git commands 
- direct commit this file with out using git add . command
